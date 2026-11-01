@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#170f0c" />
+  <meta name="description" content="Chapter 22 — a birthday gift made for Elgene Jamelia Januarie." />
+  <title>Chapter 22 | Elgene</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="locked">
+  <div id="progress" class="progress" aria-hidden="true"></div>
+
+  <section id="welcome" class="welcome" aria-label="Birthday welcome screen">
+    <div class="welcome-photo" aria-hidden="true"></div>
+    <div class="welcome-shade"></div>
+    <div class="welcome-copy">
+      <p class="kicker light">FOR ELGENE JAMELIA JANUARIE</p>
+      <h1>Another year of you.<br><em>Another chapter of us.</em></h1>
+      <p class="welcome-note">You are 22 today. I could have bought you something ordinary, so I made you a little world instead.</p>
+      <button id="enterSite" class="pill pill-light" type="button">Open Chapter 22 <span>→</span></button>
+      <div class="mini-sound">
+        <span>♪</span>
+        <div><b>Ke Lorile</b><small>Pleasure Tsa Manyalo • our soundtrack</small></div>
+      </div>
+      <p class="date-stamp">01 • 11 • 2026</p>
+    </div>
+  </section>
+
+  <nav id="nav" class="nav" aria-label="Page sections">
+    <a href="#home" class="nav-logo">22</a>
+    <div>
+      <a href="#letter">Letter</a>
+      <a href="#memories">Memories</a>
+      <a href="#love">22 things</a>
+      <a href="#openwhen">Open when</a>
+    </div>
+  </nav>
+
+  <div id="musicDock" class="music-dock">
+    <button id="musicToggle" type="button" aria-label="Play or pause soundtrack">❚❚</button>
+    <div><b>Ke Lorile</b><span id="musicStatus">Pleasure Tsa Manyalo • playing softly</span></div>
+    <i></i><i></i><i></i><i></i>
+  </div>
+  <audio id="soundtrack" loop preload="auto">
+    <source src="music/ke-lorile.mp3" type="audio/mpeg" />
+  </audio>
+
+  <header id="home" class="hero">
+    <div class="hero-shade"></div>
+    <div class="hero-copy reveal">
+      <p class="kicker light">HAPPY 22ND BIRTHDAY</p>
+      <h1>Elgene.</h1>
+      <p class="hero-line">Twenty-two years of you. And somehow, I get to love the version of you that exists right now.</p>
+      <a href="#letter" class="pill pill-outline">Read your letter <span>↓</span></a>
+    </div>
+    <div class="hero-number reveal"><span>chapter</span><strong>22</strong></div>
+  </header>
+
+  <main>
+    <section id="letter" class="section letter-section">
+      <div class="container letter-grid">
+        <figure class="letter-photo reveal">
+          <img src="images/mirror.jpg" alt="Elgene and Lesetja taking a mirror photo together" />
+          <figcaption>My favourite kind of photograph: one where we are both in it.</figcaption>
+        </figure>
+
+        <article class="letter-copy reveal">
+          <p class="kicker">A BIRTHDAY LETTER</p>
+          <h2>Dear Elgene,</h2>
+          <div class="prose">
+            <p>Happy 22nd birthday, beautiful.</p>
+            <p>I wanted to give you something that did not feel like it came off a shelf. Something that could hold a little bit of you, a little bit of me, and a little bit of whatever this thing between us has become.</p>
+            <p>You have this way of being both soft and impossible to ignore. You can be playful one minute, completely composed the next, and somehow both versions still feel unmistakably like you.</p>
+            <p>I love that I get to see more than just the polished version. I get the silly faces, the unplanned photos, the random moments, the quiet ones and the moments where neither of us is trying to make anything look perfect. Those are usually the moments I end up valuing most.</p>
+            <p>Turning 22 does not mean you suddenly need to know exactly where life is going. I hope this year gives you room to grow without rushing you. I hope it gives you reasons to feel proud of yourself, people who pour into you properly, and moments that feel so good you wish you could pause them.</p>
+            <p>I hope you keep choosing yourself, protecting your peace and remembering that being loved should never require you to shrink.</p>
+            <p>And selfishly, I hope I get to be around for more of your laughter, more ridiculous pictures, more ordinary days that unexpectedly become memories, and more versions of you that I have not met yet.</p>
+            <p>You deserve to be celebrated today—not only because it is your birthday, but because there is only one Elgene Jamelia Januarie, and this world has had twenty-two years of her now.</p>
+            <p>Happy birthday, baby. <strong>Welcome to Chapter 22.</strong></p>
+          </div>
+          <p class="signature">With love,<br><strong>Lesetja</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="memories" class="section memories-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="kicker">MEMORIES</p><h2>Little pieces of us.</h2></div>
+          <p>Not every memory needs a perfect photo. Sometimes the reflection, the blurry selfie or the random picture of our shoes says enough.</p>
+        </div>
+
+        <div class="memory-grid">
+          <figure class="memory memory-large reveal" data-index="3">
+            <img src="images/mirror.jpg" alt="Mirror photo together" />
+            <button class="plus" type="button" aria-label="Open photo">＋</button>
+            <figcaption><span>01</span> The kind of moment I wish I could keep exactly as it was.</figcaption>
+          </figure>
+          <figure class="memory reveal" data-index="0">
+            <img src="images/playful.jpg" alt="Playful selfie collage together" />
+            <button class="plus" type="button" aria-label="Open photo">＋</button>
+            <figcaption><span>02</span> Proof that romance does not always have to be serious.</figcaption>
+          </figure>
+          <figure class="memory reveal" data-index="5">
+            <img src="images/closeup.jpg" alt="Close selfie together" />
+            <button class="plus" type="button" aria-label="Open photo">＋</button>
+            <figcaption><span>03</span> Close enough to annoy each other properly.</figcaption>
+          </figure>
+          <figure class="memory memory-wide reveal" data-index="1">
+            <img src="images/reflection1.jpg" alt="Reflection photo together" />
+            <button class="plus" type="button" aria-label="Open photo">＋</button>
+            <figcaption><span>04</span> Sometimes even a reflection becomes a favourite memory.</figcaption>
+          </figure>
+          <figure class="memory reveal" data-index="2">
+            <img src="images/feet.jpg" alt="Photo of your shoes together" />
+            <button class="plus" type="button" aria-label="Open photo">＋</button>
+            <figcaption><span>05</span> Nothing dramatic. Just us, standing in the same place.</figcaption>
+          </figure>
+          <figure class="memory reveal" data-index="4">
+            <img src="images/reflection2.jpg" alt="Window reflection together" />
+            <button class="plus" type="button" aria-label="Open photo">＋</button>
+            <figcaption><span>06</span> Us, accidentally framed by the world around us.</figcaption>
+          </figure>
+          <figure class="memory memory-wide reveal" data-index="6">
+            <img src="images/elgene.jpg" alt="Elgene in a brown hoodie" />
+            <button class="plus" type="button" aria-label="Open photo">＋</button>
+            <figcaption><span>07</span> And then there is simply you.</figcaption>
+          </figure>
+        </div>
+
+        <button id="openAlbum" class="album-button reveal" type="button"><span>7</span><b>Open all the memories</b><i>＋</i></button>
+      </div>
+    </section>
+
+    <section id="love" class="section love-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="kicker">22 FOR 22</p><h2>22 things I love about you.</h2></div>
+          <div class="opened"><strong id="openedCount">0</strong><span>/ 22 opened</span></div>
+        </div>
+        <div id="loveGrid" class="love-grid"></div>
+      </div>
+    </section>
+
+    <section class="section versions-section">
+      <div class="container">
+        <div class="center-head reveal"><p class="kicker light">MY FAVOURITE VERSIONS OF YOU</p><h2>The many ways you are still you.</h2></div>
+        <div class="versions-grid">
+          <article class="version reveal"><span>01</span><h3>Playful you.</h3><p>The version that forgets about looking composed and just lets herself be ridiculous. I like her a lot.</p></article>
+          <article class="version reveal"><span>02</span><h3>Dressed-up you.</h3><p>The one who makes me wonder why looking that good was necessary when I was already trying to behave.</p></article>
+          <article class="version reveal"><span>03</span><h3>Unfiltered you.</h3><p>No performance. No perfect angle. Just you being comfortable enough to exist exactly as you are.</p></article>
+          <article class="version reveal"><span>04</span><h3>Soft you.</h3><p>The gentle parts you do not always put on display. The version I hope always feels safe with me.</p></article>
+          <article class="version reveal"><span>05</span><h3>Confident you.</h3><p>The one who knows what she deserves, walks like she knows it too, and refuses to make herself smaller.</p></article>
+          <article class="version version-special reveal"><span>06</span><h3>The you that lets me close.</h3><p>That one is my favourite.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="openwhen" class="section open-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="kicker">KEEP THESE</p><h2>Open when…</h2></div>
+          <p>Birthday messages are for one day. These are for the ordinary days too.</p>
+        </div>
+        <div class="open-grid">
+          <button class="open-card reveal" data-note="miss"><span>01</span><b>You miss me</b><small>open letter →</small></button>
+          <button class="open-card reveal" data-note="beauty"><span>02</span><b>You do not feel beautiful</b><small>open letter →</small></button>
+          <button class="open-card reveal" data-note="hard"><span>03</span><b>You have had a bad day</b><small>open letter →</small></button>
+          <button class="open-card reveal" data-note="overthink"><span>04</span><b>You are overthinking</b><small>open letter →</small></button>
+          <button class="open-card reveal" data-note="angry"><span>05</span><b>You are angry with me</b><small>open letter →</small></button>
+          <button class="open-card special reveal" data-note="birthday"><span>22</span><b>It is your birthday</b><small>open letter →</small></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section song-section">
+      <div class="container song-grid reveal">
+        <div class="record" aria-hidden="true"><div><span>22</span><small>E • J • J</small></div></div>
+        <div class="song-copy">
+          <p class="kicker light">THE SOUNDTRACK</p>
+          <h2>Ke Lorile.</h2>
+          <p><strong>Pleasure Tsa Manyalo</strong><br>This is the song I wanted here — not just background music, but part of the feeling of this little world I made for you.</p>
+          <button id="songButton" class="pill pill-light" type="button">Pause soundtrack <span>❚❚</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section secret-section">
+      <div class="container secret-wrap reveal">
+        <p class="kicker">FOR YOUR EYES ONLY</p>
+        <h2>One more thing.</h2>
+        <p>There is something hidden here because some words deserve a little more intention.</p>
+        <button id="secretButton" class="pill pill-dark" type="button">Read the secret note <span>♡</span></button>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="final-shade"></div>
+      <div class="final-copy reveal">
+        <p class="kicker light">01 NOVEMBER 2026</p>
+        <h2>Happy 22nd,<br><em>my beautiful girl.</em></h2>
+        <p>May Chapter 22 be gentle with you, exciting enough to surprise you, and full of reasons to remember how deeply you deserve to be loved.</p>
+        <button id="celebrate" class="pill pill-light" type="button">Celebrate Elgene ✦</button>
+        <strong>Welcome to Chapter 22. 🤎</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Made with love for Elgene Jamelia Januarie</span><span>Chapter 22 • 01 November 2026</span></footer>
+
+  <div id="noteModal" class="modal" aria-hidden="true">
+    <article class="paper" role="dialog" aria-modal="true">
+      <button id="closeNote" class="close" type="button" aria-label="Close">×</button>
+      <p class="kicker">OPEN WHEN</p>
+      <h3 id="noteTitle"></h3>
+      <div id="noteText" class="note-text"></div>
+      <p class="modal-sign">— Lesetja</p>
+    </article>
+  </div>
+
+  <div id="secretModal" class="modal" aria-hidden="true">
+    <article class="paper secret-paper" role="dialog" aria-modal="true">
+      <button id="closeSecret" class="close" type="button" aria-label="Close">×</button>
+      <p class="kicker">JUST BETWEEN US</p>
+      <h3>Elgene,</h3>
+      <div class="note-text">
+        <p>I do not know what every chapter ahead of us will look like, and I do not want to pretend that love means everything will always be effortless.</p>
+        <p>What I do know is that you matter to me in a way that has made ordinary moments feel important. A photo in a mirror. A stupid face. Standing next to each other outside somewhere. Things that would mean nothing to anyone else somehow become things I want to keep.</p>
+        <p>I hope I never become so familiar with you that I forget to appreciate you. I hope I keep noticing your smile, your softness, your stubbornness, your beauty, your humour, and all the little pieces that make you Elgene.</p>
+        <p>And if one day you ever wonder what I saw in you, come back here.</p>
+        <p><strong>I saw you. And I wanted more of you in my life.</strong></p>
+      </div>
+      <p class="modal-sign">Always yours,<br>Lesetja 🤎</p>
+    </article>
+  </div>
+
+  <div id="gallery" class="gallery" aria-hidden="true">
+    <div class="gallery-top"><div><p class="kicker light">MEMORIES</p><b id="galleryCounter">01 / 07</b></div><button id="closeGallery" type="button">×</button></div>
+    <div class="gallery-stage">
+      <button id="prevPhoto" class="arrow" type="button">←</button>
+      <figure><img id="galleryImage" alt="Memory" /><figcaption><span id="galleryLabel"></span><p id="galleryCaption"></p></figcaption></figure>
+      <button id="nextPhoto" class="arrow" type="button">→</button>
+    </div>
+    <div id="thumbs" class="thumbs"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
